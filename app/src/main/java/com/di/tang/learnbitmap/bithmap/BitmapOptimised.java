@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
 import java.io.FileDescriptor;
+import java.io.InputStream;
 
 /**
  * Created by tangdi on 2016/9/5.

@@ -15,6 +15,9 @@ public class MyUtils  {
     private static final String TAG = "MyUtils";
 
     public static void close(Closeable closeable){
+        if(closeable != null){
+            return;
+        }
         try{
             closeable.close();
         }catch (IOException e){
